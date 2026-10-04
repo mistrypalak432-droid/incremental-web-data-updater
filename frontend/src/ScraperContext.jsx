@@ -7,7 +7,7 @@ import {
 
 const ScraperContext = createContext(null);
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://incremental-web-data-updater.onrender.com";
 
 export function ScraperProvider({ children }) {
   // =========================

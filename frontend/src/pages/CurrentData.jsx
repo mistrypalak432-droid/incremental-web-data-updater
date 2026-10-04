@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://incremental-web-data-updater.onrender.com";
 
 function CurrentData() {
   const [records, setRecords] = useState([]);
